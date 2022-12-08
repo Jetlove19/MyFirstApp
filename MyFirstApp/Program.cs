@@ -7,9 +7,8 @@ namespace MyFirstApp
 		public static void Main(string[] args)
 		{
 
-			string myName;
-			myName = "Любовь";
-
+			string myName = "Любовь";
+	
 			Console.WriteLine(myName);
 
 			Console.ReadKey();
