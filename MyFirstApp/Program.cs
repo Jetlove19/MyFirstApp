@@ -49,10 +49,24 @@ namespace MyFirstApp
             Console.WriteLine("10 % 3 = {0}", result2);
             Console.WriteLine("{0}", result2);
 
+            Console.WriteLine("Enter your name");
+			string nik = Console.ReadLine();
+            Console.WriteLine("Enter your age");
+			int years = int.Parse(Console.ReadLine());
+            Console.WriteLine("What is your favourite day of week?");
+			string dayofweek = Console.ReadLine();
+			Console.WriteLine("Your favourite day is {0}", dayofweek);
 
-
+            ///Задание с анкетой
+            Console.WriteLine("Enter your name: ");
+			var nameof = Console.ReadLine();
+            Console.WriteLine("Enter your age: ");
+			var yourage = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter your birthdate: ");
+			var birthday = Console.ReadLine();
+            Console.WriteLine("Your birthdate is {0}", birthday);
 		}
-
+     
 
 			///Задание 3.4.3
 		enum Semaphore
